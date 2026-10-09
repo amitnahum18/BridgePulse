@@ -1,0 +1,34 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Machine-specific configuration and credentials
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Raw measurements are supplied separately (the source H5 is about 907 MB)
+/data/raw/*
+!/data/raw/*.sha256
+
+# Recovery copies and local experiment tracking
+/archive/
+/mlartifacts/
+/mlruns/
+/mlflow.db
+/mlflow.db-*
+
+# Runtime logs and process identifiers
+*.log
+*.pid
+.DS_Store
+Thumbs.db

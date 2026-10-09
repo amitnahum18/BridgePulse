@@ -1,0 +1,1114 @@
+{
+  "diagnostics": [
+    {
+      "recording": "baseline_2/test_1",
+      "original_state": "baseline_2",
+      "binary_label": 0,
+      "A15_z_rms": 1.13131980659415,
+      "A15_z_kurtosis": 14.351966113106773,
+      "A26_z_rms": 0.6846062012910336,
+      "A26_z_kurtosis": 11.18240852352781
+    },
+    {
+      "recording": "baseline_2/test_2",
+      "original_state": "baseline_2",
+      "binary_label": 0,
+      "A15_z_rms": 1.2089482538358745,
+      "A15_z_kurtosis": 12.151222108467737,
+      "A26_z_rms": 0.755548876956424,
+      "A26_z_kurtosis": 7.077779451072459
+    },
+    {
+      "recording": "baseline_2/test_3",
+      "original_state": "baseline_2",
+      "binary_label": 0,
+      "A15_z_rms": 1.1003443923659109,
+      "A15_z_kurtosis": 13.339122033950972,
+      "A26_z_rms": 0.6842141600051623,
+      "A26_z_kurtosis": 8.75520128548199
+    },
+    {
+      "recording": "damage_6/test_1",
+      "original_state": "damage_6",
+      "binary_label": 1,
+      "A15_z_rms": 0.8694947736695646,
+      "A15_z_kurtosis": 4.578027387741783,
+      "A26_z_rms": 0.602716986975187,
+      "A26_z_kurtosis": 6.430086094539504
+    },
+    {
+      "recording": "damage_6/test_2",
+      "original_state": "damage_6",
+      "binary_label": 1,
+      "A15_z_rms": 0.9545683352341446,
+      "A15_z_kurtosis": 4.370594678570928,
+      "A26_z_rms": 0.6128940115257567,
+      "A26_z_kurtosis": 4.573010002699842
+    },
+    {
+      "recording": "damage_6/test_3",
+      "original_state": "damage_6",
+      "binary_label": 1,
+      "A15_z_rms": 0.3479537113149986,
+      "A15_z_kurtosis": 85.04344997718151,
+      "A26_z_rms": 0.44342977890152746,
+      "A26_z_kurtosis": 6.4928130771211485
+    },
+    {
+      "recording": "damage_6/test_4",
+      "original_state": "damage_6",
+      "binary_label": 1,
+      "A15_z_rms": 0.9398808105338157,
+      "A15_z_kurtosis": 9.003772042836767,
+      "A26_z_rms": 0.6283775488671507,
+      "A26_z_kurtosis": 6.672389196276072
+    }
+  ],
+  "nested_summary": [
+    {
+      "strategy": "All features (2030)",
+      "outer_balanced_accuracy_mean": 0.5595238095238095,
+      "outer_balanced_accuracy_std": 0.25551365130167064,
+      "baseline_recall_mean": 0.3333333333333333,
+      "damage_recall_mean": 0.7857142857142857
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "outer_balanced_accuracy_mean": 0.8373015873015873,
+      "outer_balanced_accuracy_std": 0.12075495281510268,
+      "baseline_recall_mean": 0.8333333333333334,
+      "damage_recall_mean": 0.8412698412698413
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "outer_balanced_accuracy_mean": 0.753968253968254,
+      "outer_balanced_accuracy_std": 0.11514776292497549,
+      "baseline_recall_mean": 0.6666666666666666,
+      "damage_recall_mean": 0.8412698412698413
+    }
+  ],
+  "folds": [
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "selected_sensor": "all",
+      "C": 0.1,
+      "inner_score": 0.9583333333333334,
+      "outer_balanced_accuracy": 0.42857142857142855,
+      "outer_baseline_recall": 0.0,
+      "outer_damage_recall": 0.8571428571428571,
+      "outer_roc_auc": 0.8571428571428571
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "selected_sensor": "all",
+      "C": 0.01,
+      "inner_score": 0.7916666666666667,
+      "outer_balanced_accuracy": 0.9285714285714286,
+      "outer_baseline_recall": 1.0,
+      "outer_damage_recall": 0.8571428571428571,
+      "outer_roc_auc": 1.0
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "selected_sensor": "A01",
+      "C": 0.1,
+      "inner_score": 0.9166666666666667,
+      "outer_balanced_accuracy": 0.6785714285714286,
+      "outer_baseline_recall": 0.5,
+      "outer_damage_recall": 0.8571428571428571,
+      "outer_roc_auc": 0.9285714285714286
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "selected_sensor": "all",
+      "C": 0.1,
+      "inner_score": 0.625,
+      "outer_balanced_accuracy": 0.3333333333333333,
+      "outer_baseline_recall": 0.0,
+      "outer_damage_recall": 0.6666666666666666,
+      "outer_roc_auc": 0.6666666666666666
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "selected_sensor": "all",
+      "C": 0.01,
+      "inner_score": 0.5833333333333334,
+      "outer_balanced_accuracy": 0.6666666666666667,
+      "outer_baseline_recall": 0.5,
+      "outer_damage_recall": 0.8333333333333334,
+      "outer_roc_auc": 0.75
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "selected_sensor": "A05",
+      "C": 0.01,
+      "inner_score": 0.7083333333333334,
+      "outer_balanced_accuracy": 0.6666666666666667,
+      "outer_baseline_recall": 0.5,
+      "outer_damage_recall": 0.8333333333333334,
+      "outer_roc_auc": 0.75
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "selected_sensor": "all",
+      "C": 0.01,
+      "inner_score": 0.75,
+      "outer_balanced_accuracy": 0.9166666666666667,
+      "outer_baseline_recall": 1.0,
+      "outer_damage_recall": 0.8333333333333334,
+      "outer_roc_auc": 1.0
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "selected_sensor": "all",
+      "C": 0.01,
+      "inner_score": 0.8333333333333334,
+      "outer_balanced_accuracy": 0.9166666666666667,
+      "outer_baseline_recall": 1.0,
+      "outer_damage_recall": 0.8333333333333334,
+      "outer_roc_auc": 0.9166666666666667
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "selected_sensor": "A26",
+      "C": 0.01,
+      "inner_score": 1.0,
+      "outer_balanced_accuracy": 0.9166666666666667,
+      "outer_baseline_recall": 1.0,
+      "outer_damage_recall": 0.8333333333333334,
+      "outer_roc_auc": 0.9166666666666667
+    }
+  ],
+  "predictions": [
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "baseline_1/test_1",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 1,
+      "damage_probability": 0.6850812566003922,
+      "correct": false
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "baseline_1/test_2",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 1,
+      "damage_probability": 0.5978373791186484,
+      "correct": false
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "damage_1/test_3",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 0.4387595787410557,
+      "correct": false
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "damage_3/test_2",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9214468618210704,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "damage_4/test_1",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.8602289100315135,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "damage_4/test_2",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9646180330303785,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "damage_5/test_2",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9201606614023161,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "damage_5/test_3",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.7844693543483944,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 1,
+      "recording": "damage_6/test_4",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.8961097832601478,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "baseline_1/test_1",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.4705016722459798,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "baseline_1/test_2",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.32972142277022753,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "damage_1/test_3",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 0.4907599473949625,
+      "correct": false
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "damage_3/test_2",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.7106297181378352,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "damage_4/test_1",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.6433995191693824,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "damage_4/test_2",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.8071244080032963,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "damage_5/test_2",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.8139883701085477,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "damage_5/test_3",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.8214042448915193,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 1,
+      "recording": "damage_6/test_4",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.7876461212234679,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "baseline_1/test_1",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.4059524244214139,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "baseline_1/test_2",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 1,
+      "damage_probability": 0.5085052480433461,
+      "correct": false
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "damage_1/test_3",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 0.4634864445475387,
+      "correct": false
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "damage_3/test_2",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5126324836070583,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "damage_4/test_1",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.6249124989969871,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "damage_4/test_2",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.6645942450112428,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "damage_5/test_2",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.6456261201972922,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "damage_5/test_3",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.7281459719655692,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 1,
+      "recording": "damage_6/test_4",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5570605393498824,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "recording": "baseline_2/test_1",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 1,
+      "damage_probability": 0.8351021619981769,
+      "correct": false
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "recording": "baseline_2/test_3",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 1,
+      "damage_probability": 0.6950061534990496,
+      "correct": false
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "recording": "damage_1/test_1",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 0.35736443717133315,
+      "correct": false
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "recording": "damage_2/test_2",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9864221359226434,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "recording": "damage_2/test_3",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9955921079041717,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "recording": "damage_4/test_3",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9810576265863146,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "recording": "damage_6/test_1",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9946249354793544,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 2,
+      "recording": "damage_6/test_3",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 1.0891865451612048e-08,
+      "correct": false
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "recording": "baseline_2/test_1",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 1,
+      "damage_probability": 0.6308370846413636,
+      "correct": false
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "recording": "baseline_2/test_3",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.41863922276806154,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "recording": "damage_1/test_1",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5017558439573324,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "recording": "damage_2/test_2",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.896902948424488,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "recording": "damage_2/test_3",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9571408281689585,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "recording": "damage_4/test_3",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.8750629887221875,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "recording": "damage_6/test_1",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9033887222312813,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 2,
+      "recording": "damage_6/test_3",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 1.731348020270501e-08,
+      "correct": false
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "recording": "baseline_2/test_1",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 1,
+      "damage_probability": 0.5394507191893422,
+      "correct": false
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "recording": "baseline_2/test_3",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.48166049449904774,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "recording": "damage_1/test_1",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5074091057716555,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "recording": "damage_2/test_2",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5991668940999485,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "recording": "damage_2/test_3",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.6341453242478337,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "recording": "damage_4/test_3",
+      "original_state": "damage_4",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5521807833301362,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "recording": "damage_6/test_1",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5793249504031365,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 2,
+      "recording": "damage_6/test_3",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 0.014340410386437134,
+      "correct": false
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "recording": "baseline_1/test_3",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.25938238900549926,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "recording": "baseline_2/test_2",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.32980327742336146,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "recording": "damage_1/test_2",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 0.3697935256870409,
+      "correct": false
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "recording": "damage_2/test_1",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9146192720607869,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "recording": "damage_3/test_1",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.781232301025772,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "recording": "damage_3/test_3",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5372319247490881,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "recording": "damage_5/test_1",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9868989600028178,
+      "correct": true
+    },
+    {
+      "strategy": "All features (2030)",
+      "fold": 3,
+      "recording": "damage_6/test_2",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9829509806164559,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "recording": "baseline_1/test_3",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.4101342604421423,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "recording": "baseline_2/test_2",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.3112004140463163,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "recording": "damage_1/test_2",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 0.4003832342169341,
+      "correct": false
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "recording": "damage_2/test_1",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.8134398157806649,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "recording": "damage_3/test_1",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.7618366523653043,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "recording": "damage_3/test_3",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5190022000696571,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "recording": "damage_5/test_1",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9796888081348757,
+      "correct": true
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "fold": 3,
+      "recording": "damage_6/test_2",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.9778599167046106,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "recording": "baseline_1/test_3",
+      "original_state": "baseline_1",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.4790109481822674,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "recording": "baseline_2/test_2",
+      "original_state": "baseline_2",
+      "true_label": 0,
+      "prediction": 0,
+      "damage_probability": 0.49202504531350927,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "recording": "damage_1/test_2",
+      "original_state": "damage_1",
+      "true_label": 1,
+      "prediction": 0,
+      "damage_probability": 0.4870220735886384,
+      "correct": false
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "recording": "damage_2/test_1",
+      "original_state": "damage_2",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5631937407892021,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "recording": "damage_3/test_1",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5708748415521604,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "recording": "damage_3/test_3",
+      "original_state": "damage_3",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.5226292796092145,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "recording": "damage_5/test_1",
+      "original_state": "damage_5",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.6058058381071464,
+      "correct": true
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "fold": 3,
+      "recording": "damage_6/test_2",
+      "original_state": "damage_6",
+      "true_label": 1,
+      "prediction": 1,
+      "damage_probability": 0.6183064092435285,
+      "correct": true
+    }
+  ],
+  "errors_by_original_state": [
+    {
+      "strategy": "All features (2030)",
+      "original_state": "baseline_1",
+      "binary_label": 0,
+      "recordings": 3,
+      "errors": 2
+    },
+    {
+      "strategy": "All features (2030)",
+      "original_state": "baseline_2",
+      "binary_label": 0,
+      "recordings": 3,
+      "errors": 2
+    },
+    {
+      "strategy": "All features (2030)",
+      "original_state": "damage_1",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 3
+    },
+    {
+      "strategy": "All features (2030)",
+      "original_state": "damage_2",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All features (2030)",
+      "original_state": "damage_3",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All features (2030)",
+      "original_state": "damage_4",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All features (2030)",
+      "original_state": "damage_5",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All features (2030)",
+      "original_state": "damage_6",
+      "binary_label": 1,
+      "recordings": 4,
+      "errors": 1
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "original_state": "baseline_1",
+      "binary_label": 0,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "original_state": "baseline_2",
+      "binary_label": 0,
+      "recordings": 3,
+      "errors": 1
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "original_state": "damage_1",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 2
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "original_state": "damage_2",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "original_state": "damage_3",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "original_state": "damage_4",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "original_state": "damage_5",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "All MFCC (928)",
+      "original_state": "damage_6",
+      "binary_label": 1,
+      "recordings": 4,
+      "errors": 1
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "original_state": "baseline_1",
+      "binary_label": 0,
+      "recordings": 3,
+      "errors": 1
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "original_state": "baseline_2",
+      "binary_label": 0,
+      "recordings": 3,
+      "errors": 1
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "original_state": "damage_1",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 2
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "original_state": "damage_2",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "original_state": "damage_3",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "original_state": "damage_4",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "original_state": "damage_5",
+      "binary_label": 1,
+      "recordings": 3,
+      "errors": 0
+    },
+    {
+      "strategy": "Inner-selected Z sensor (16)",
+      "original_state": "damage_6",
+      "binary_label": 1,
+      "recordings": 4,
+      "errors": 1
+    }
+  ],
+  "warning": "Exploratory nested validation on previously inspected same-bridge recordings"
+}

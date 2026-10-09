@@ -1,0 +1,409 @@
+{
+  "state_accuracy": [
+    {
+      "model": "Random Forest",
+      "state": "baseline_1",
+      "correct_fraction_across_splits": 0.7833333333333333
+    },
+    {
+      "model": "Random Forest",
+      "state": "baseline_2",
+      "correct_fraction_across_splits": 0.2833333333333333
+    },
+    {
+      "model": "Random Forest",
+      "state": "damage_1",
+      "correct_fraction_across_splits": 0.2
+    },
+    {
+      "model": "Random Forest",
+      "state": "damage_2",
+      "correct_fraction_across_splits": 0.9166666666666666
+    },
+    {
+      "model": "Random Forest",
+      "state": "damage_3",
+      "correct_fraction_across_splits": 0.8
+    },
+    {
+      "model": "Random Forest",
+      "state": "damage_4",
+      "correct_fraction_across_splits": 0.95
+    },
+    {
+      "model": "Random Forest",
+      "state": "damage_5",
+      "correct_fraction_across_splits": 1.0
+    },
+    {
+      "model": "Random Forest",
+      "state": "damage_6",
+      "correct_fraction_across_splits": 0.775
+    },
+    {
+      "model": "Logistic L2",
+      "state": "baseline_1",
+      "correct_fraction_across_splits": 0.7833333333333333
+    },
+    {
+      "model": "Logistic L2",
+      "state": "baseline_2",
+      "correct_fraction_across_splits": 0.35
+    },
+    {
+      "model": "Logistic L2",
+      "state": "damage_1",
+      "correct_fraction_across_splits": 0.1
+    },
+    {
+      "model": "Logistic L2",
+      "state": "damage_2",
+      "correct_fraction_across_splits": 0.7
+    },
+    {
+      "model": "Logistic L2",
+      "state": "damage_3",
+      "correct_fraction_across_splits": 0.7333333333333333
+    },
+    {
+      "model": "Logistic L2",
+      "state": "damage_4",
+      "correct_fraction_across_splits": 0.9833333333333333
+    },
+    {
+      "model": "Logistic L2",
+      "state": "damage_5",
+      "correct_fraction_across_splits": 1.0
+    },
+    {
+      "model": "Logistic L2",
+      "state": "damage_6",
+      "correct_fraction_across_splits": 0.75
+    }
+  ],
+  "damage_1_aggregate_channel_summaries": [
+    {
+      "feature": "rms",
+      "damage_1_recording_values": [
+        0.7735285016475129,
+        0.641835110144424,
+        0.6523484857728714
+      ],
+      "baseline_median": 0.6398938831525123,
+      "other_damage_median": 0.6256347842611016
+    },
+    {
+      "feature": "kurtosis",
+      "damage_1_recording_values": [
+        7.911992891466938,
+        8.243565740935438,
+        7.19904054910826
+      ],
+      "baseline_median": 9.63604952053384,
+      "other_damage_median": 4.896912956520193
+    },
+    {
+      "feature": "dominant_frequency",
+      "damage_1_recording_values": [
+        9.6875,
+        9.0,
+        9.21875
+      ],
+      "baseline_median": 10.96875,
+      "other_damage_median": 9.9375
+    },
+    {
+      "feature": "spectral_centroid",
+      "damage_1_recording_values": [
+        17.26710383969583,
+        18.25342914130909,
+        17.784985773402834
+      ],
+      "baseline_median": 18.16392555031311,
+      "other_damage_median": 19.74066379125962
+    },
+    {
+      "feature": "fraction_4_8",
+      "damage_1_recording_values": [
+        0.06081714675527006,
+        0.08694054103519898,
+        0.08550508710046201
+      ],
+      "baseline_median": 0.06569358269544054,
+      "other_damage_median": 0.0694291923208418
+    },
+    {
+      "feature": "fraction_8_14",
+      "damage_1_recording_values": [
+        0.37758581837716476,
+        0.3144516310296532,
+        0.32386133727922684
+      ],
+      "baseline_median": 0.2974924582175309,
+      "other_damage_median": 0.27163875526587306
+    },
+    {
+      "feature": "fraction_25_35",
+      "damage_1_recording_values": [
+        0.031415423862126375,
+        0.04113091547157732,
+        0.029495434602791942
+      ],
+      "baseline_median": 0.04018378475701867,
+      "other_damage_median": 0.05056732590651208
+    },
+    {
+      "feature": "fraction_55_64",
+      "damage_1_recording_values": [
+        0.008312966050738417,
+        0.008923592135262793,
+        0.009649413535631746
+      ],
+      "baseline_median": 0.01108616374846719,
+      "other_damage_median": 0.012425811908646632
+    }
+  ],
+  "exploratory_top_features": [
+    {
+      "feature": "A06_y_fraction_4_8",
+      "absolute_descriptive_AUC": 1.0,
+      "standardized_median_difference": 3.342096702312256,
+      "damage_1_values": [
+        0.014428877374718447,
+        0.01509877604111126,
+        0.01573547743023452
+      ],
+      "baseline_median": 0.007921262143029732,
+      "other_damage_median": 0.006358839956408751
+    },
+    {
+      "feature": "A18_z_spectral_spread",
+      "absolute_descriptive_AUC": 1.0,
+      "standardized_median_difference": -2.6015240270071245,
+      "damage_1_values": [
+        11.508011828394352,
+        12.551592020918081,
+        11.796942685626863
+      ],
+      "baseline_median": 13.141531244627012,
+      "other_damage_median": 14.6483662251141
+    },
+    {
+      "feature": "A12_y_fraction_4_8",
+      "absolute_descriptive_AUC": 1.0,
+      "standardized_median_difference": 1.8750060389746999,
+      "damage_1_values": [
+        0.007878940383522989,
+        0.008759772081529277,
+        0.008123643987523473
+      ],
+      "baseline_median": 0.0060879387404494225,
+      "other_damage_median": 0.00507538447870665
+    },
+    {
+      "feature": "A05_z_mfcc_3_mean",
+      "absolute_descriptive_AUC": 1.0,
+      "standardized_median_difference": 1.7731507620966755,
+      "damage_1_values": [
+        3.131911648021085,
+        3.2862301886190806,
+        3.273633373773774
+      ],
+      "baseline_median": 2.6584846842038887,
+      "other_damage_median": 1.916224167541451
+    },
+    {
+      "feature": "A27_z_mfcc_3_mean",
+      "absolute_descriptive_AUC": 1.0,
+      "standardized_median_difference": 1.376285794712935,
+      "damage_1_values": [
+        3.8481691767855466,
+        3.514418164348051,
+        3.517989425988185
+      ],
+      "baseline_median": 3.1623470871370594,
+      "other_damage_median": 2.634929069766546
+    },
+    {
+      "feature": "A12_z_mfcc_2_mean",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": 3.171830296893138,
+      "damage_1_values": [
+        3.995024857507248,
+        2.829803900181134,
+        3.618269632939994
+      ],
+      "baseline_median": 1.7920438777284362,
+      "other_damage_median": 1.7515320267320518
+    },
+    {
+      "feature": "A11_z_mfcc_5_mean",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": 2.485317031540864,
+      "damage_1_values": [
+        2.270180202335535,
+        2.549641757856454,
+        2.2802770714120104
+      ],
+      "baseline_median": 1.3917339136315796,
+      "other_damage_median": 1.204892543032134
+    },
+    {
+      "feature": "A12_z_spectral_centroid",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": -2.3107004814207026,
+      "damage_1_values": [
+        11.454946189979417,
+        12.594799217463589,
+        11.433992390514339
+      ],
+      "baseline_median": 13.397344455695835,
+      "other_damage_median": 16.0268940442443
+    },
+    {
+      "feature": "A12_z_spectral_spread",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": -2.158987830960808,
+      "damage_1_values": [
+        11.127287895623454,
+        11.94083643685873,
+        11.307272527922782
+      ],
+      "baseline_median": 13.645074888054364,
+      "other_damage_median": 15.045972509678577
+    },
+    {
+      "feature": "A10_z_spectral_spread",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": -1.8680879153307968,
+      "damage_1_values": [
+        6.158205294384516,
+        6.8088486688105805,
+        6.279682868195095
+      ],
+      "baseline_median": 7.351472194559862,
+      "other_damage_median": 8.331905740221703
+    },
+    {
+      "feature": "A09_y_spectral_spread",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": 1.5227035298674814,
+      "damage_1_values": [
+        17.234973209081925,
+        17.681337515285207,
+        17.496095349419132
+      ],
+      "baseline_median": 16.88379078549043,
+      "other_damage_median": 16.017460282788853
+    },
+    {
+      "feature": "A23_z_spectral_centroid",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": -1.426609344831856,
+      "damage_1_values": [
+        9.510224914191365,
+        9.762102260408541,
+        9.397023696397891
+      ],
+      "baseline_median": 9.934008380921597,
+      "other_damage_median": 10.558310345000164
+    },
+    {
+      "feature": "A11_z_fraction_25_35",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": -0.9463037557381359,
+      "damage_1_values": [
+        0.02422002820475403,
+        0.031243107452932222,
+        0.02229859434749466
+      ],
+      "baseline_median": 0.03903888971624306,
+      "other_damage_median": 0.05006922965125839
+    },
+    {
+      "feature": "A12_z_fraction_55_64",
+      "absolute_descriptive_AUC": 0.9848484848484849,
+      "standardized_median_difference": -0.7844879535786591,
+      "damage_1_values": [
+        0.01029319827684071,
+        0.012423835667093593,
+        0.010936736034668193
+      ],
+      "baseline_median": 0.021489710373499605,
+      "other_damage_median": 0.030815378417921375
+    },
+    {
+      "feature": "A17_z_spectral_spread",
+      "absolute_descriptive_AUC": 0.9696969696969697,
+      "standardized_median_difference": -2.5587422333656398,
+      "damage_1_values": [
+        7.06638619202023,
+        7.8991913767516415,
+        7.193615542984342
+      ],
+      "baseline_median": 8.19216629670161,
+      "other_damage_median": 9.405896809963416
+    },
+    {
+      "feature": "A16_z_spectral_spread",
+      "absolute_descriptive_AUC": 0.9696969696969697,
+      "standardized_median_difference": -2.4126159055143455,
+      "damage_1_values": [
+        6.294088280760372,
+        6.869424728837196,
+        6.306845383507212
+      ],
+      "baseline_median": 7.2063235702325015,
+      "other_damage_median": 8.182045095696067
+    },
+    {
+      "feature": "A12_z_spectral_entropy",
+      "absolute_descriptive_AUC": 0.9696969696969697,
+      "standardized_median_difference": -2.0093421503428743,
+      "damage_1_values": [
+        0.7712375561477225,
+        0.7928518782294877,
+        0.7599669879449406
+      ],
+      "baseline_median": 0.811039375564461,
+      "other_damage_median": 0.8257093284561399
+    },
+    {
+      "feature": "A16_z_fraction_25_35",
+      "absolute_descriptive_AUC": 0.9696969696969697,
+      "standardized_median_difference": -1.9941710862969015,
+      "damage_1_values": [
+        0.0133374031778587,
+        0.01966232181986512,
+        0.013741538371506925
+      ],
+      "baseline_median": 0.019918897005821848,
+      "other_damage_median": 0.027827166850816924
+    },
+    {
+      "feature": "A09_z_spectral_spread",
+      "absolute_descriptive_AUC": 0.9696969696969697,
+      "standardized_median_difference": -1.9647756363133233,
+      "damage_1_values": [
+        6.27966853960128,
+        7.181686630114854,
+        6.559213718068634
+      ],
+      "baseline_median": 7.401267439864036,
+      "other_damage_median": 8.701559559354699
+    },
+    {
+      "feature": "A03_z_spectral_spread",
+      "absolute_descriptive_AUC": 0.9696969696969697,
+      "standardized_median_difference": -1.7924960861493122,
+      "damage_1_values": [
+        3.488050789339781,
+        3.7872719804121,
+        3.6275093926547206
+      ],
+      "baseline_median": 3.9561985889257043,
+      "other_damage_median": 4.406086048877141
+    }
+  ],
+  "limitations": "Three damage_1 recordings; rankings selected among 2030 features after observing all data. AUC is descriptive, not validated predictive performance or significance. Repeated split predictions are not independent observations."
+}

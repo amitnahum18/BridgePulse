@@ -1,0 +1,14 @@
+{
+  "raw_reconstruction_all_25_passed": true,
+  "max_absolute_reconstruction_error": 0.0,
+  "labels_aligned": true,
+  "one_row_per_recording": true,
+  "exact_duplicates": [],
+  "label_metadata_not_in_features": true,
+  "A14_excluded": true,
+  "direct_preprocessing_leakage_found": false,
+  "remaining_bias": "4s robust summaries were selected after examining six configurations on these same data. Feature-family/model selection optimism remains. State grouping cannot prove independent excitation conditions or generalization to another bridge.",
+  "state_overlap_checks_passed": true,
+  "scaler_train_only_checks_passed": true,
+  "RF_all_20_scores_reproduced": true
+}

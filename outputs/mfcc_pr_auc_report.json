@@ -1,0 +1,185 @@
+{
+  "summary": [
+    {
+      "model": "Logistic L2",
+      "damage_AP_mean": 0.9689153439153438,
+      "damage_AP_SD": 0.02881351972326978,
+      "baseline_AP_mean": 0.7777777777777777,
+      "baseline_AP_SD": 0.20786985482077452,
+      "damage_trapezoidal_PR_AUC_mean": 0.9663359788359789
+    },
+    {
+      "model": "Random Forest",
+      "damage_AP_mean": 0.9689153439153438,
+      "damage_AP_SD": 0.02881351972326978,
+      "baseline_AP_mean": 0.7777777777777777,
+      "baseline_AP_SD": 0.20786985482077452,
+      "damage_trapezoidal_PR_AUC_mean": 0.9663359788359789
+    },
+    {
+      "model": "Extra Trees",
+      "damage_AP_mean": 0.9424603174603176,
+      "damage_AP_SD": 0.023864574805117316,
+      "baseline_AP_mean": 0.5833333333333334,
+      "baseline_AP_SD": 0.13608276348795434,
+      "damage_trapezoidal_PR_AUC_mean": 0.9378968253968253
+    },
+    {
+      "model": "SVM RBF",
+      "damage_AP_mean": 0.9343348450491308,
+      "damage_AP_SD": 0.01030419659146496,
+      "baseline_AP_mean": 0.5666666666666667,
+      "baseline_AP_SD": 0.13123346456686352,
+      "damage_trapezoidal_PR_AUC_mean": 0.928807634164777
+    },
+    {
+      "model": "Histogram Boosting",
+      "damage_AP_mean": 0.8379629629629631,
+      "damage_AP_SD": 0.12542793689022283,
+      "baseline_AP_mean": 0.5416666666666666,
+      "baseline_AP_SD": 0.3280836614171588,
+      "damage_trapezoidal_PR_AUC_mean": 0.8958333333333334
+    }
+  ],
+  "folds": [
+    {
+      "model": "Extra Trees",
+      "fold": 1,
+      "damage_prevalence": 0.7777777777777778,
+      "damage_AP": 0.9682539682539681,
+      "damage_trapezoidal_PR_AUC": 0.9662698412698412,
+      "baseline_AP": 0.5833333333333333,
+      "baseline_trapezoidal_PR_AUC": 0.41666666666666663
+    },
+    {
+      "model": "Extra Trees",
+      "fold": 2,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.9107142857142857,
+      "damage_trapezoidal_PR_AUC": 0.9037698412698413,
+      "baseline_AP": 0.41666666666666663,
+      "baseline_trapezoidal_PR_AUC": 0.29166666666666663
+    },
+    {
+      "model": "Extra Trees",
+      "fold": 3,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.9484126984126984,
+      "damage_trapezoidal_PR_AUC": 0.9436507936507936,
+      "baseline_AP": 0.75,
+      "baseline_trapezoidal_PR_AUC": 0.7083333333333333
+    },
+    {
+      "model": "Histogram Boosting",
+      "fold": 1,
+      "damage_prevalence": 0.7777777777777778,
+      "damage_AP": 1.0,
+      "damage_trapezoidal_PR_AUC": 1.0,
+      "baseline_AP": 1.0,
+      "baseline_trapezoidal_PR_AUC": 1.0
+    },
+    {
+      "model": "Histogram Boosting",
+      "fold": 2,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.8194444444444445,
+      "damage_trapezoidal_PR_AUC": 0.8958333333333334,
+      "baseline_AP": 0.375,
+      "baseline_trapezoidal_PR_AUC": 0.5625
+    },
+    {
+      "model": "Histogram Boosting",
+      "fold": 3,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.6944444444444444,
+      "damage_trapezoidal_PR_AUC": 0.7916666666666665,
+      "baseline_AP": 0.25,
+      "baseline_trapezoidal_PR_AUC": 0.125
+    },
+    {
+      "model": "Logistic L2",
+      "fold": 1,
+      "damage_prevalence": 0.7777777777777778,
+      "damage_AP": 1.0,
+      "damage_trapezoidal_PR_AUC": 1.0,
+      "baseline_AP": 1.0,
+      "baseline_trapezoidal_PR_AUC": 1.0
+    },
+    {
+      "model": "Logistic L2",
+      "fold": 2,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.9305555555555556,
+      "damage_trapezoidal_PR_AUC": 0.9248015873015873,
+      "baseline_AP": 0.5,
+      "baseline_trapezoidal_PR_AUC": 0.3333333333333333
+    },
+    {
+      "model": "Logistic L2",
+      "fold": 3,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.9761904761904762,
+      "damage_trapezoidal_PR_AUC": 0.9742063492063492,
+      "baseline_AP": 0.8333333333333333,
+      "baseline_trapezoidal_PR_AUC": 0.7916666666666666
+    },
+    {
+      "model": "Random Forest",
+      "fold": 1,
+      "damage_prevalence": 0.7777777777777778,
+      "damage_AP": 1.0,
+      "damage_trapezoidal_PR_AUC": 1.0,
+      "baseline_AP": 1.0,
+      "baseline_trapezoidal_PR_AUC": 1.0
+    },
+    {
+      "model": "Random Forest",
+      "fold": 2,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.9305555555555556,
+      "damage_trapezoidal_PR_AUC": 0.9248015873015873,
+      "baseline_AP": 0.5,
+      "baseline_trapezoidal_PR_AUC": 0.3333333333333333
+    },
+    {
+      "model": "Random Forest",
+      "fold": 3,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.9761904761904762,
+      "damage_trapezoidal_PR_AUC": 0.9742063492063492,
+      "baseline_AP": 0.8333333333333333,
+      "baseline_trapezoidal_PR_AUC": 0.7916666666666666
+    },
+    {
+      "model": "SVM RBF",
+      "fold": 1,
+      "damage_prevalence": 0.7777777777777778,
+      "damage_AP": 0.9240362811791383,
+      "damage_trapezoidal_PR_AUC": 0.91797052154195,
+      "baseline_AP": 0.45,
+      "baseline_trapezoidal_PR_AUC": 0.2875
+    },
+    {
+      "model": "SVM RBF",
+      "fold": 2,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.9305555555555556,
+      "damage_trapezoidal_PR_AUC": 0.9248015873015873,
+      "baseline_AP": 0.5,
+      "baseline_trapezoidal_PR_AUC": 0.3333333333333333
+    },
+    {
+      "model": "SVM RBF",
+      "fold": 3,
+      "damage_prevalence": 0.75,
+      "damage_AP": 0.9484126984126984,
+      "damage_trapezoidal_PR_AUC": 0.9436507936507936,
+      "baseline_AP": 0.75,
+      "baseline_trapezoidal_PR_AUC": 0.7083333333333333
+    }
+  ],
+  "metric": "Mean outer-fold Average Precision; trapezoidal PR-AUC also reported",
+  "tuning_metric": "balanced_accuracy",
+  "damage_prevalence": 0.76,
+  "baseline_prevalence": 0.24
+}

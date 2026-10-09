@@ -1,0 +1,846 @@
+{
+  "metrics": {
+    "grouped_validation_BA_mean": 0.819736842105263,
+    "grouped_split_SD": 0.08142907379867882,
+    "cv_train_BA_mean": 0.9725000000000001,
+    "cv_train_validation_gap": 0.15416666666666665,
+    "grouped_damage_AP": 0.9613126796043463,
+    "grouped_baseline_AP": 0.7396049783549784,
+    "final_fit_training_BA": 0.9736842105263157
+  },
+  "folds": [
+    {
+      "allocation": 1,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.5555555555555556,
+      "damage_AP": 0.8066017316017318,
+      "baseline_AP": 0.3686868686868687,
+      "train_states": [
+        "baseline_2",
+        "damage_4",
+        "damage_5",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_2",
+        "damage_3"
+      ]
+    },
+    {
+      "allocation": 1,
+      "fold": 2,
+      "train_BA": 0.9444444444444444,
+      "validation_BA": 0.9,
+      "damage_AP": 0.9769230769230769,
+      "baseline_AP": 0.6388888888888888,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_2",
+        "damage_3"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_4",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 2,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.6111111111111112,
+      "damage_AP": 0.8969496552829888,
+      "baseline_AP": 0.6666666666666666,
+      "train_states": [
+        "baseline_2",
+        "damage_3",
+        "damage_5",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_2",
+        "damage_4"
+      ]
+    },
+    {
+      "allocation": 2,
+      "fold": 2,
+      "train_BA": 1.0,
+      "validation_BA": 0.95,
+      "damage_AP": 0.9769230769230769,
+      "baseline_AP": 0.6388888888888888,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_2",
+        "damage_4"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_3",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 3,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.6666666666666666,
+      "damage_AP": 0.8762706429373097,
+      "baseline_AP": 0.5777777777777777,
+      "train_states": [
+        "baseline_2",
+        "damage_3",
+        "damage_4",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_2",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 3,
+      "fold": 2,
+      "train_BA": 0.9444444444444444,
+      "validation_BA": 0.95,
+      "damage_AP": 0.9769230769230769,
+      "baseline_AP": 0.6388888888888888,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_2",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_3",
+        "damage_4",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 4,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.7,
+      "damage_AP": 0.9041777666777667,
+      "baseline_AP": 0.4444444444444444,
+      "train_states": [
+        "baseline_2",
+        "damage_3",
+        "damage_4",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_2",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 4,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 1.0,
+      "damage_AP": 1.0000000000000002,
+      "baseline_AP": 1.0,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_2",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_3",
+        "damage_4",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 5,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.6666666666666666,
+      "damage_AP": 0.8893738977072312,
+      "baseline_AP": 0.5,
+      "train_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_5",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_3",
+        "damage_4"
+      ]
+    },
+    {
+      "allocation": 5,
+      "fold": 2,
+      "train_BA": 1.0,
+      "validation_BA": 0.6166666666666667,
+      "damage_AP": 0.9669230769230769,
+      "baseline_AP": 0.5888888888888889,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_3",
+        "damage_4"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 6,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.8333333333333333,
+      "damage_AP": 0.9722222222222223,
+      "baseline_AP": 0.6388888888888888,
+      "train_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_4",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_3",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 6,
+      "fold": 2,
+      "train_BA": 1.0,
+      "validation_BA": 0.95,
+      "damage_AP": 0.9769230769230769,
+      "baseline_AP": 0.6388888888888888,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_3",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_4",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 7,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.8,
+      "damage_AP": 0.9769230769230769,
+      "baseline_AP": 0.6388888888888888,
+      "train_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_4",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_3",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 7,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 1.0,
+      "damage_AP": 1.0000000000000002,
+      "baseline_AP": 1.0,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_3",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_4",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 8,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.8333333333333333,
+      "damage_AP": 0.9598765432098768,
+      "baseline_AP": 0.5888888888888889,
+      "train_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_3",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_4",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 8,
+      "fold": 2,
+      "train_BA": 0.9444444444444444,
+      "validation_BA": 0.9,
+      "damage_AP": 0.9833333333333333,
+      "baseline_AP": 0.8055555555555556,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_4",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_3",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 9,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.8,
+      "damage_AP": 0.9909090909090909,
+      "baseline_AP": 0.9166666666666665,
+      "train_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_3",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_4",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 9,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 1.0,
+      "damage_AP": 1.0000000000000002,
+      "baseline_AP": 1.0,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_4",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_3",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 10,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.85,
+      "damage_AP": 0.9651515151515152,
+      "baseline_AP": 0.7,
+      "train_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_3",
+        "damage_4"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 10,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 1.0,
+      "damage_AP": 1.0000000000000002,
+      "baseline_AP": 1.0,
+      "train_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_5",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_2",
+        "damage_3",
+        "damage_4"
+      ]
+    },
+    {
+      "allocation": 11,
+      "fold": 1,
+      "train_BA": 0.9,
+      "validation_BA": 0.5,
+      "damage_AP": 0.8412257495590829,
+      "baseline_AP": 0.7575757575757576,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_5",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_3",
+        "damage_4"
+      ]
+    },
+    {
+      "allocation": 11,
+      "fold": 2,
+      "train_BA": 1.0,
+      "validation_BA": 0.6833333333333333,
+      "damage_AP": 0.9121503496503497,
+      "baseline_AP": 0.3595238095238095,
+      "train_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_3",
+        "damage_4"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 12,
+      "fold": 1,
+      "train_BA": 0.95,
+      "validation_BA": 0.9444444444444444,
+      "damage_AP": 0.9797979797979799,
+      "baseline_AP": 0.8055555555555556,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_4",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_3",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 12,
+      "fold": 2,
+      "train_BA": 1.0,
+      "validation_BA": 0.85,
+      "damage_AP": 0.9651515151515152,
+      "baseline_AP": 0.7,
+      "train_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_3",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_4",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 13,
+      "fold": 1,
+      "train_BA": 0.8888888888888888,
+      "validation_BA": 0.8,
+      "damage_AP": 0.9833333333333333,
+      "baseline_AP": 0.8055555555555556,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_4",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_3",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 13,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 0.8888888888888888,
+      "damage_AP": 0.9722222222222223,
+      "baseline_AP": 0.6388888888888888,
+      "train_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_3",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_4",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 14,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.7222222222222222,
+      "damage_AP": 0.9467813051146385,
+      "baseline_AP": 0.8095238095238095,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_3",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_4",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 14,
+      "fold": 2,
+      "train_BA": 1.0,
+      "validation_BA": 0.85,
+      "damage_AP": 0.9669230769230769,
+      "baseline_AP": 0.5888888888888889,
+      "train_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_4",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_3",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 15,
+      "fold": 1,
+      "train_BA": 0.9444444444444444,
+      "validation_BA": 0.7333333333333334,
+      "damage_AP": 0.9809090909090908,
+      "baseline_AP": 0.8666666666666667,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_3",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_4",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 15,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 0.8888888888888888,
+      "damage_AP": 0.9797979797979799,
+      "baseline_AP": 0.8055555555555556,
+      "train_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_4",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_3",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 16,
+      "fold": 1,
+      "train_BA": 0.9444444444444444,
+      "validation_BA": 0.95,
+      "damage_AP": 0.9909090909090909,
+      "baseline_AP": 0.9166666666666665,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_3",
+        "damage_4"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 16,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 0.7777777777777778,
+      "damage_AP": 1.0000000000000002,
+      "baseline_AP": 1.0,
+      "train_states": [
+        "baseline_1",
+        "damage_2",
+        "damage_5",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_3",
+        "damage_4"
+      ]
+    },
+    {
+      "allocation": 17,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.7777777777777778,
+      "damage_AP": 0.9765432098765434,
+      "baseline_AP": 0.8666666666666667,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_3",
+        "damage_4",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 17,
+      "fold": 2,
+      "train_BA": 1.0,
+      "validation_BA": 0.75,
+      "damage_AP": 0.9476301476301475,
+      "baseline_AP": 0.5,
+      "train_states": [
+        "baseline_1",
+        "damage_3",
+        "damage_4",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 18,
+      "fold": 1,
+      "train_BA": 0.9444444444444444,
+      "validation_BA": 0.9,
+      "damage_AP": 0.9909090909090909,
+      "baseline_AP": 0.9166666666666665,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_5"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_3",
+        "damage_4",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 18,
+      "fold": 2,
+      "train_BA": 1.0,
+      "validation_BA": 0.8333333333333333,
+      "damage_AP": 0.9722222222222223,
+      "baseline_AP": 0.6388888888888888,
+      "train_states": [
+        "baseline_1",
+        "damage_3",
+        "damage_4",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_5"
+      ]
+    },
+    {
+      "allocation": 19,
+      "fold": 1,
+      "train_BA": 1.0,
+      "validation_BA": 0.9,
+      "damage_AP": 0.9809090909090908,
+      "baseline_AP": 0.8666666666666667,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_4"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_3",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 19,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 0.7777777777777778,
+      "damage_AP": 0.9888888888888892,
+      "baseline_AP": 0.9166666666666665,
+      "train_states": [
+        "baseline_1",
+        "damage_3",
+        "damage_5",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_4"
+      ]
+    },
+    {
+      "allocation": 20,
+      "fold": 1,
+      "train_BA": 0.9444444444444444,
+      "validation_BA": 0.9,
+      "damage_AP": 0.9909090909090909,
+      "baseline_AP": 0.9166666666666665,
+      "train_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_3"
+      ],
+      "validation_states": [
+        "baseline_1",
+        "damage_4",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "allocation": 20,
+      "fold": 2,
+      "train_BA": 0.95,
+      "validation_BA": 0.7222222222222222,
+      "damage_AP": 0.9888888888888892,
+      "baseline_AP": 0.9166666666666665,
+      "train_states": [
+        "baseline_1",
+        "damage_4",
+        "damage_5",
+        "damage_6"
+      ],
+      "validation_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_3"
+      ]
+    }
+  ],
+  "allocations": [
+    0.7368421052631579,
+    0.7894736842105263,
+    0.8157894736842105,
+    0.8421052631578947,
+    0.6491228070175439,
+    0.8947368421052632,
+    0.8947368421052632,
+    0.868421052631579,
+    0.8947368421052632,
+    0.9210526315789473,
+    0.5964912280701754,
+    0.8947368421052632,
+    0.8421052631578947,
+    0.7850877192982456,
+    0.8114035087719298,
+    0.868421052631579,
+    0.763157894736842,
+    0.868421052631579,
+    0.8421052631578947,
+    0.8157894736842105
+  ],
+  "raw_sha256": "d8140844045e3e04de90d41c82e9a7464bc274713db8a3b9b7e6ba5a3bcb5dd6",
+  "checks": {
+    "uniform_89_seconds_43_frames": true,
+    "tail_invariance": true,
+    "metadata_rejected": true,
+    "labels_aligned": true,
+    "state_disjoint": true,
+    "schema_order_checked": true,
+    "no_normalization_needed_for_forest": true
+  },
+  "limitations": "Exploratory candidate trained on all 25 recordings after prior feature/parameter selection. No untouched final test; one bridge, eight experimental states; group-level physical dependence may remain. Not production validated."
+}

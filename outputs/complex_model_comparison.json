@@ -1,0 +1,182 @@
+{
+  "summary": [
+    {
+      "model": "Logistic L2",
+      "training_cv": 0.6,
+      "validation_balanced_accuracy": 0.3333333333333333,
+      "test_balanced_accuracy": 0.3333333333333333,
+      "test_accuracy": 0.5,
+      "test_baseline_recall": 0.0,
+      "test_damage_recall": 0.6666666666666666,
+      "test_roc_auc": 0.6666666666666666
+    },
+    {
+      "model": "SVM RBF",
+      "training_cv": 0.5666666666666667,
+      "validation_balanced_accuracy": 0.5,
+      "test_balanced_accuracy": 0.5,
+      "test_accuracy": 0.25,
+      "test_baseline_recall": 1.0,
+      "test_damage_recall": 0.0,
+      "test_roc_auc": 1.0
+    },
+    {
+      "model": "Random Forest",
+      "training_cv": 0.6333333333333333,
+      "validation_balanced_accuracy": 0.5,
+      "test_balanced_accuracy": 0.3333333333333333,
+      "test_accuracy": 0.5,
+      "test_baseline_recall": 0.0,
+      "test_damage_recall": 0.6666666666666666,
+      "test_roc_auc": 0.6666666666666666
+    },
+    {
+      "model": "Extra Trees",
+      "training_cv": 0.6333333333333333,
+      "validation_balanced_accuracy": 0.5,
+      "test_balanced_accuracy": 0.3333333333333333,
+      "test_accuracy": 0.5,
+      "test_baseline_recall": 0.0,
+      "test_damage_recall": 0.6666666666666666,
+      "test_roc_auc": 0.6666666666666666
+    }
+  ],
+  "details": [
+    {
+      "model": "SVM RBF",
+      "parameters": {
+        "classifier__C": 0.01,
+        "classifier__gamma": 0.0001
+      },
+      "validation": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.5,
+        "baseline_recall": 0.0,
+        "damage_recall": 1.0,
+        "roc_auc": 0.6666666666666666,
+        "average_precision": 0.9166666666666665
+      },
+      "test": {
+        "accuracy": 0.25,
+        "balanced_accuracy": 0.5,
+        "baseline_recall": 1.0,
+        "damage_recall": 0.0,
+        "roc_auc": 1.0,
+        "average_precision": 1.0
+      },
+      "test_predictions": [
+        {
+          "recording": "baseline_2/test_1",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "recording": "damage_3/test_1",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "recording": "damage_4/test_2",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "recording": "damage_6/test_3",
+          "label": 1,
+          "prediction": 0
+        }
+      ]
+    },
+    {
+      "model": "Random Forest",
+      "parameters": {
+        "classifier__max_depth": 2,
+        "classifier__min_samples_leaf": 1
+      },
+      "validation": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.5,
+        "baseline_recall": 0.0,
+        "damage_recall": 1.0,
+        "roc_auc": 1.0,
+        "average_precision": 1.0
+      },
+      "test": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.3333333333333333,
+        "baseline_recall": 0.0,
+        "damage_recall": 0.6666666666666666,
+        "roc_auc": 0.6666666666666666,
+        "average_precision": 0.9166666666666665
+      },
+      "test_predictions": [
+        {
+          "recording": "baseline_2/test_1",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "recording": "damage_3/test_1",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "recording": "damage_4/test_2",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "recording": "damage_6/test_3",
+          "label": 1,
+          "prediction": 0
+        }
+      ]
+    },
+    {
+      "model": "Extra Trees",
+      "parameters": {
+        "classifier__max_depth": 2,
+        "classifier__min_samples_leaf": 1
+      },
+      "validation": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.5,
+        "baseline_recall": 0.0,
+        "damage_recall": 1.0,
+        "roc_auc": 0.6666666666666666,
+        "average_precision": 0.9166666666666665
+      },
+      "test": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.3333333333333333,
+        "baseline_recall": 0.0,
+        "damage_recall": 0.6666666666666666,
+        "roc_auc": 0.6666666666666666,
+        "average_precision": 0.9166666666666665
+      },
+      "test_predictions": [
+        {
+          "recording": "baseline_2/test_1",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "recording": "damage_3/test_1",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "recording": "damage_4/test_2",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "recording": "damage_6/test_3",
+          "label": 1,
+          "prediction": 0
+        }
+      ]
+    }
+  ],
+  "warning": "Exploratory comparison; test recordings already inspected"
+}

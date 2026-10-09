@@ -1,0 +1,18 @@
+{
+  "run_id": "42e120e5fbd443b4a6831911d57af7e6",
+  "experiment_id": "1",
+  "tracking_uri": "sqlite:///C:/project_ML/BridgePulse/mlflow.db",
+  "model_uri": "models:/m-f6d972ece9dd4c7ea20da37231e4a046",
+  "registered_model_name": "BridgePulseDamageRF",
+  "registered_model_version": 1,
+  "metrics": {
+    "grouped_validation_BA_mean": 0.819736842105263,
+    "grouped_split_SD": 0.08142907379867882,
+    "cv_train_BA_mean": 0.9725000000000001,
+    "cv_train_validation_gap": 0.15416666666666665,
+    "grouped_damage_AP": 0.9613126796043463,
+    "grouped_baseline_AP": 0.7396049783549784,
+    "final_fit_training_BA": 0.9736842105263157
+  },
+  "reload_verified": true
+}

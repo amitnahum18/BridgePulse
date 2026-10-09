@@ -1,0 +1,951 @@
+{
+  "analysis": [
+    {
+      "sensor": "A06",
+      "axis": "y",
+      "feature": "fraction_4_8",
+      "summary": {
+        "damage_1": {
+          "whole_min": 0.014428877374718447,
+          "whole_median": 0.01509877604111126,
+          "whole_max": 0.01573547743023452,
+          "trimmed_min": 0.01350533563979103,
+          "trimmed_max": 0.01399127183977683,
+          "undefined_zero_energy_frames": 0,
+          "frame_min": 0.0100998055391639,
+          "frame_median": 0.015348279915493764,
+          "frame_max": 0.028106444313189854,
+          "band_power_median": 0.01175753063404289,
+          "total_power_median": 0.7659380686964924
+        },
+        "baseline": {
+          "whole_min": 0.005709549219317951,
+          "whole_median": 0.007921262143029732,
+          "whole_max": 0.011502466714322498,
+          "trimmed_min": 0.005960875808767183,
+          "trimmed_max": 0.010239580882876038,
+          "undefined_zero_energy_frames": 0,
+          "frame_min": 0.0018156335882791553,
+          "frame_median": 0.008447001177031668,
+          "frame_max": 0.028006048150261014,
+          "band_power_median": 0.005632862607545122,
+          "total_power_median": 0.7715915990792197
+        },
+        "other_damage": {
+          "whole_min": 0.0018100033978514622,
+          "whole_median": 0.006358839956408751,
+          "whole_max": 0.010614591487618579,
+          "trimmed_min": 0.0018588633664611807,
+          "trimmed_max": 0.009841254192680424,
+          "undefined_zero_energy_frames": 3,
+          "frame_min": 0.00024695963710742627,
+          "frame_median": 0.008140408994394608,
+          "frame_max": 0.03246993100424531,
+          "band_power_median": 0.004893224897031123,
+          "total_power_median": 0.8739095871309195
+        }
+      },
+      "recordings": [
+        {
+          "recording": "baseline_1/test_1",
+          "category": "baseline",
+          "fraction_4_8": 0.011502466714322498,
+          "power_4_8": 0.003255817465215546,
+          "total_power": 0.2830538480203996,
+          "spectral_spread": 14.770762168588556,
+          "rms": 0.5220084892781701,
+          "peak_abs": 4.919497691065691,
+          "trim_5s_each_end_feature": 0.010239580882876038,
+          "20s_frame_feature_values": [
+            0.00818622734118829,
+            0.028006048150261014,
+            0.009771513349225864,
+            0.010917980410680988
+          ]
+        },
+        {
+          "recording": "baseline_1/test_2",
+          "category": "baseline",
+          "fraction_4_8": 0.008445458721642688,
+          "power_4_8": 0.003992771913050366,
+          "total_power": 0.4727714674418242,
+          "spectral_spread": 13.855292094098846,
+          "rms": 0.6760154578941362,
+          "peak_abs": 4.280197396432754,
+          "trim_5s_each_end_feature": 0.008808924037933123,
+          "20s_frame_feature_values": [
+            0.008059160730374992,
+            0.0041939196931343615,
+            0.010651408730531622,
+            0.010768467218102195
+          ]
+        },
+        {
+          "recording": "baseline_1/test_3",
+          "category": "baseline",
+          "fraction_4_8": 0.005709549219317951,
+          "power_4_8": 0.005471258120697339,
+          "total_power": 0.9582644637138135,
+          "spectral_spread": 12.139973728000486,
+          "rms": 0.9339055499354416,
+          "peak_abs": 5.759327495567065,
+          "trim_5s_each_end_feature": 0.005960875808767183,
+          "20s_frame_feature_values": [
+            0.010155741684800143,
+            0.010002782742040485,
+            0.0018156335882791553,
+            0.005403123276621107
+          ]
+        },
+        {
+          "recording": "baseline_2/test_1",
+          "category": "baseline",
+          "fraction_4_8": 0.008856079678089606,
+          "power_4_8": 0.005933806148623709,
+          "total_power": 0.6700262829956519,
+          "spectral_spread": 13.54160104403387,
+          "rms": 0.7764885198342705,
+          "peak_abs": 6.7871347876936845,
+          "trim_5s_each_end_feature": 0.008606299838306335,
+          "20s_frame_feature_values": [
+            0.012971717934015345,
+            0.01271571240267179,
+            0.007318651091961205,
+            0.005801194054776782
+          ]
+        },
+        {
+          "recording": "baseline_2/test_2",
+          "category": "baseline",
+          "fraction_4_8": 0.0073970655644167785,
+          "power_4_8": 0.006787402961943999,
+          "total_power": 0.9175804787501775,
+          "spectral_spread": 12.974362574994304,
+          "rms": 0.9045451981112738,
+          "peak_abs": 10.408038638530513,
+          "trim_5s_each_end_feature": 0.0074907637792455285,
+          "20s_frame_feature_values": [
+            0.009149292714008226,
+            0.008707775012875046,
+            0.007284403366452184,
+            0.005307195271646256
+          ]
+        },
+        {
+          "recording": "baseline_2/test_3",
+          "category": "baseline",
+          "fraction_4_8": 0.0066362265404639326,
+          "power_4_8": 0.005794467094392904,
+          "total_power": 0.8731569151627874,
+          "spectral_spread": 12.451470714031123,
+          "rms": 0.8690843748065147,
+          "peak_abs": 7.7104977951253755,
+          "trim_5s_each_end_feature": 0.005977611383809608,
+          "20s_frame_feature_values": [
+            0.00971408051456657,
+            0.00633376496389742,
+            0.005052030227555554,
+            0.007445383375346348
+          ]
+        },
+        {
+          "recording": "damage_1/test_1",
+          "category": "damage_1",
+          "fraction_4_8": 0.014428877374718447,
+          "power_4_8": 0.016318170278378834,
+          "total_power": 1.1309383158921782,
+          "spectral_spread": 14.044785946690293,
+          "rms": 0.9960000774099329,
+          "peak_abs": 7.352337089266576,
+          "trim_5s_each_end_feature": 0.01399127183977683,
+          "20s_frame_feature_values": [
+            0.015795595032418907,
+            0.020454216928770468,
+            0.0135292655363255,
+            0.013979895130371931
+          ]
+        },
+        {
+          "recording": "damage_1/test_2",
+          "category": "damage_1",
+          "fraction_4_8": 0.01509877604111126,
+          "power_4_8": 0.01156472736060963,
+          "total_power": 0.7659380686964924,
+          "spectral_spread": 13.590695000080387,
+          "rms": 0.8537757042736337,
+          "peak_abs": 7.048113341137861,
+          "trim_5s_each_end_feature": 0.013923551506863793,
+          "20s_frame_feature_values": [
+            0.028106444313189854,
+            0.016625707063910936,
+            0.012350906329795354,
+            0.014717472339197608
+          ]
+        },
+        {
+          "recording": "damage_1/test_3",
+          "category": "damage_1",
+          "fraction_4_8": 0.01573547743023452,
+          "power_4_8": 0.01175753063404289,
+          "total_power": 0.747198849616834,
+          "spectral_spread": 14.296833675380565,
+          "rms": 0.8362884619719189,
+          "peak_abs": 6.799452244610852,
+          "trim_5s_each_end_feature": 0.01350533563979103,
+          "20s_frame_feature_values": [
+            0.02034343516365714,
+            0.0100998055391639,
+            0.014900964798568622,
+            0.015980547648728225
+          ]
+        },
+        {
+          "recording": "damage_2/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.007909351960207,
+          "power_4_8": 0.023107283539541786,
+          "total_power": 2.9215141336227797,
+          "spectral_spread": 10.727901366433105,
+          "rms": 1.6122349456094123,
+          "peak_abs": 21.417125146384514,
+          "trim_5s_each_end_feature": 0.007712828601463477,
+          "20s_frame_feature_values": [
+            0.009694756976700861,
+            0.008353689773563065,
+            0.01023104102148901,
+            0.0043505724650088
+          ]
+        },
+        {
+          "recording": "damage_2/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.0060830273147355245,
+          "power_4_8": 0.01829865622116155,
+          "total_power": 3.0081496061730464,
+          "spectral_spread": 9.64145351887562,
+          "rms": 1.7114231338763035,
+          "peak_abs": 22.673083994504033,
+          "trim_5s_each_end_feature": 0.005490173605612851,
+          "20s_frame_feature_values": [
+            0.009719240149153836,
+            0.004643071019315315,
+            0.006364362330487899,
+            0.008954540824795113
+          ]
+        },
+        {
+          "recording": "damage_2/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.006225417336855712,
+          "power_4_8": 0.020879289584971622,
+          "total_power": 3.353877893673419,
+          "spectral_spread": 10.041597384185906,
+          "rms": 1.7297911582379724,
+          "peak_abs": 23.806477764533206,
+          "trim_5s_each_end_feature": 0.0058913151708535234,
+          "20s_frame_feature_values": [
+            0.009924469714490833,
+            0.01005106656058071,
+            0.009810305106211739,
+            0.005327953067482735
+          ]
+        },
+        {
+          "recording": "damage_3/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.006064940927533385,
+          "power_4_8": 0.005176220230907744,
+          "total_power": 0.8534658940219746,
+          "spectral_spread": 13.327213270620172,
+          "rms": 0.8644110512562302,
+          "peak_abs": 5.562608033057633,
+          "trim_5s_each_end_feature": 0.006488811925505788,
+          "20s_frame_feature_values": [
+            0.011436123479953871,
+            0.0060722854642707895,
+            0.0042817926501935305,
+            0.005409867610683134
+          ]
+        },
+        {
+          "recording": "damage_3/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.004898987063366819,
+          "power_4_8": 0.0044090187696884985,
+          "total_power": 0.8999857955653405,
+          "spectral_spread": 13.049194477112104,
+          "rms": 0.9023405229501813,
+          "peak_abs": 7.622455568672016,
+          "trim_5s_each_end_feature": 0.004597436404749119,
+          "20s_frame_feature_values": [
+            0.005765778700137608,
+            0.006191904436570231,
+            0.004994232517019839,
+            0.0029759804005422027
+          ]
+        },
+        {
+          "recording": "damage_3/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.006492262575961788,
+          "power_4_8": 0.00436129029403247,
+          "total_power": 0.6717673912605686,
+          "spectral_spread": 13.413215157836529,
+          "rms": 0.784079683792877,
+          "peak_abs": 4.498442445590692,
+          "trim_5s_each_end_feature": 0.006260427935772356,
+          "20s_frame_feature_values": [
+            0.0065007459797018895,
+            0.008122937626569541,
+            0.006177418631743967,
+            0.024023503500202815
+          ]
+        },
+        {
+          "recording": "damage_4/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.010251716301861516,
+          "power_4_8": 0.0048131061490273505,
+          "total_power": 0.46949271783431834,
+          "spectral_spread": 14.08909099935501,
+          "rms": 0.6599591913550008,
+          "peak_abs": 4.362694539610907,
+          "trim_5s_each_end_feature": 0.009262403762552128,
+          "20s_frame_feature_values": [
+            0.01208331353162068,
+            0.008366498700230856,
+            0.009835052505619904,
+            0.03246993100424531
+          ]
+        },
+        {
+          "recording": "damage_4/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.009344224904380463,
+          "power_4_8": 0.004481665065629297,
+          "total_power": 0.47961870690080943,
+          "spectral_spread": 14.241979087036949,
+          "rms": 0.6775738510248264,
+          "peak_abs": 4.137296573187727,
+          "trim_5s_each_end_feature": 0.008451095326028519,
+          "20s_frame_feature_values": [
+            0.010862709572089029,
+            0.012111998311412091,
+            0.008028909269875187,
+            0.009399515159235578
+          ]
+        },
+        {
+          "recording": "damage_4/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.0018100033978514622,
+          "power_4_8": 0.005237128633542557,
+          "total_power": 2.893435802252754,
+          "spectral_spread": 15.049372905593032,
+          "rms": 1.4973758054121336,
+          "peak_abs": 22.21674069480817,
+          "trim_5s_each_end_feature": 0.0018588633664611807,
+          "20s_frame_feature_values": [
+            0.009010216710295048,
+            0.005129632345207249,
+            0.006502586913240242,
+            0.00024695963710742627
+          ]
+        },
+        {
+          "recording": "damage_5/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.005560826750365417,
+          "power_4_8": 0.004973343645034896,
+          "total_power": 0.8943532802398644,
+          "spectral_spread": 11.47535456555964,
+          "rms": 0.9793299324628458,
+          "peak_abs": 5.056497513070612,
+          "trim_5s_each_end_feature": 0.005317635604104805,
+          "20s_frame_feature_values": [
+            0.005079989646082934,
+            0.003554265626804244,
+            0.0069133453678661,
+            0.01267200769501454
+          ]
+        },
+        {
+          "recording": "damage_5/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.008913574026934067,
+          "power_4_8": 0.004760000940981186,
+          "total_power": 0.5340170987078734,
+          "spectral_spread": 13.430899008166723,
+          "rms": 0.7096477568126027,
+          "peak_abs": 5.369378936457451,
+          "trim_5s_each_end_feature": 0.007919862909677111,
+          "20s_frame_feature_values": [
+            0.009802413556288105,
+            0.007467853140113852,
+            0.010216212618928312,
+            0.023464267231364206
+          ]
+        },
+        {
+          "recording": "damage_5/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.010614591487618579,
+          "power_4_8": 0.005511364073839953,
+          "total_power": 0.5192252646056797,
+          "spectral_spread": 14.356216138030659,
+          "rms": 0.7369150943761842,
+          "peak_abs": 4.023056328391811,
+          "trim_5s_each_end_feature": 0.009706129695705942,
+          "20s_frame_feature_values": [
+            0.005099894799471915,
+            0.011919428315682616,
+            0.012470130698430362,
+            0.03218907909133277
+          ]
+        },
+        {
+          "recording": "damage_6/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.004006302651855105,
+          "power_4_8": 0.004554239276098979,
+          "total_power": 1.1367686547570621,
+          "spectral_spread": 11.461515690060066,
+          "rms": 0.9917821471965174,
+          "peak_abs": 5.630518950158152,
+          "trim_5s_each_end_feature": 0.004774831833186287,
+          "20s_frame_feature_values": [
+            0.003795509372623502,
+            0.006490507621920927,
+            0.015335752425056462,
+            0.001200108725345689
+          ]
+        },
+        {
+          "recording": "damage_6/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.003104073597333279,
+          "power_4_8": 0.0043460306543529085,
+          "total_power": 1.4001055445613788,
+          "spectral_spread": 10.526442237322515,
+          "rms": 1.1894794730688107,
+          "peak_abs": 5.8512450661060385,
+          "trim_5s_each_end_feature": 0.0034812132619709613,
+          "20s_frame_feature_values": [
+            0.0047879330654558615,
+            0.0021868436155857486,
+            0.010697173435875184,
+            0.004110770197417572
+          ]
+        },
+        {
+          "recording": "damage_6/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.007764437835017774,
+          "power_4_8": 0.0006958662856008638,
+          "total_power": 0.0896222367139695,
+          "spectral_spread": 9.79682317542774,
+          "rms": 0.30283466201697207,
+          "peak_abs": 3.9037946188831314,
+          "trim_5s_each_end_feature": 0.0033312327053590125,
+          "20s_frame_feature_values": [
+            0.007426101565589396,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "recording": "damage_6/test_4",
+          "category": "other_damage",
+          "fraction_4_8": 0.009651701865052058,
+          "power_4_8": 0.0049868609976684635,
+          "total_power": 0.5166820388148786,
+          "spectral_spread": 13.386760832668719,
+          "rms": 0.6831046689057879,
+          "peak_abs": 4.319260080229379,
+          "trim_5s_each_end_feature": 0.009841254192680424,
+          "20s_frame_feature_values": [
+            0.008806213002578125,
+            0.0117382334208774,
+            0.008140408994394608,
+            0.014731969000771918
+          ]
+        }
+      ]
+    },
+    {
+      "sensor": "A18",
+      "axis": "z",
+      "feature": "spectral_spread",
+      "summary": {
+        "damage_1": {
+          "whole_min": 11.508011828394352,
+          "whole_median": 11.796942685626863,
+          "whole_max": 12.551592020918081,
+          "trimmed_min": 11.848572124177027,
+          "trimmed_max": 12.253515737637624,
+          "undefined_zero_energy_frames": 0,
+          "frame_min": 10.118507998788067,
+          "frame_median": 12.694496393619936,
+          "frame_max": 15.073047670913493,
+          "band_power_median": 0.1185657798425965,
+          "total_power_median": 0.45489104821848925
+        },
+        "baseline": {
+          "whole_min": 12.58943912926513,
+          "whole_median": 13.141531244627012,
+          "whole_max": 15.634303719510704,
+          "trimmed_min": 12.132345496603342,
+          "trimmed_max": 15.109167361965808,
+          "undefined_zero_energy_frames": 0,
+          "frame_min": 11.015355467940019,
+          "frame_median": 12.899196140564886,
+          "frame_max": 19.059480806216605,
+          "band_power_median": 0.098926448200962,
+          "total_power_median": 0.3710282426812458
+        },
+        "other_damage": {
+          "whole_min": 13.109720796418861,
+          "whole_median": 14.6483662251141,
+          "whole_max": 15.954996671465542,
+          "trimmed_min": 12.754924243223073,
+          "trimmed_max": 16.170226692754326,
+          "undefined_zero_energy_frames": 3,
+          "frame_min": 9.538156493231908,
+          "frame_median": 14.21082485194708,
+          "frame_max": 18.539881610215026,
+          "band_power_median": 0.061825165140049265,
+          "total_power_median": 0.2616933440378874
+        }
+      },
+      "recordings": [
+        {
+          "recording": "baseline_1/test_1",
+          "category": "baseline",
+          "fraction_4_8": 0.12978691516276203,
+          "power_4_8": 0.03305911686354553,
+          "total_power": 0.25471841149847074,
+          "spectral_spread": 13.85192924081261,
+          "rms": 0.495623377407761,
+          "peak_abs": 5.61730561746954,
+          "trim_5s_each_end_feature": 13.535158066910803,
+          "20s_frame_feature_values": [
+            11.483846768678942,
+            18.53354057646444,
+            18.876218096559896,
+            11.015355467940019
+          ]
+        },
+        {
+          "recording": "baseline_1/test_2",
+          "category": "baseline",
+          "fraction_4_8": 0.17604797541559197,
+          "power_4_8": 0.042203111817602626,
+          "total_power": 0.23972506197799104,
+          "spectral_spread": 15.634303719510704,
+          "rms": 0.5028049816968151,
+          "peak_abs": 4.304957580706049,
+          "trim_5s_each_end_feature": 15.109167361965808,
+          "20s_frame_feature_values": [
+            11.887748939629933,
+            19.059480806216605,
+            13.51762046903593,
+            12.773242969738254
+          ]
+        },
+        {
+          "recording": "baseline_1/test_3",
+          "category": "baseline",
+          "fraction_4_8": 0.2041529667568064,
+          "power_4_8": 0.09739050569705196,
+          "total_power": 0.47704673238017,
+          "spectral_spread": 12.58943912926513,
+          "rms": 0.6598676037344038,
+          "peak_abs": 6.875093799239951,
+          "trim_5s_each_end_feature": 12.132345496603342,
+          "20s_frame_feature_values": [
+            11.361080829347943,
+            11.923516984854,
+            14.558040448193005,
+            13.025149311391516
+          ]
+        },
+        {
+          "recording": "baseline_2/test_1",
+          "category": "baseline",
+          "fraction_4_8": 0.27512952281763015,
+          "power_4_8": 0.10046239070487205,
+          "total_power": 0.3651458036056117,
+          "spectral_spread": 13.267320527706007,
+          "rms": 0.5780966743663728,
+          "peak_abs": 5.114101430111493,
+          "trim_5s_each_end_feature": 12.912777477710229,
+          "20s_frame_feature_values": [
+            12.558010405372496,
+            13.637161801223742,
+            15.952859550634928,
+            15.37287793503363
+          ]
+        },
+        {
+          "recording": "baseline_2/test_2",
+          "category": "baseline",
+          "fraction_4_8": 0.2579663431568798,
+          "power_4_8": 0.10803285341218247,
+          "total_power": 0.4187866218907608,
+          "spectral_spread": 12.63665704195063,
+          "rms": 0.6102005694472551,
+          "peak_abs": 5.422752700821751,
+          "trim_5s_each_end_feature": 12.610013688523619,
+          "20s_frame_feature_values": [
+            11.532659679008207,
+            15.578842142936905,
+            12.117173583724098,
+            12.176530404220495
+          ]
+        },
+        {
+          "recording": "baseline_2/test_3",
+          "category": "baseline",
+          "fraction_4_8": 0.2842947932344279,
+          "power_4_8": 0.10715374433791944,
+          "total_power": 0.3769106817568799,
+          "spectral_spread": 13.015741961548018,
+          "rms": 0.566484056068235,
+          "peak_abs": 4.918545991500157,
+          "trim_5s_each_end_feature": 13.426966219019244,
+          "20s_frame_feature_values": [
+            12.726441438060558,
+            12.097304984943706,
+            13.482981250607143,
+            15.189911472598112
+          ]
+        },
+        {
+          "recording": "damage_1/test_1",
+          "category": "damage_1",
+          "fraction_4_8": 0.22254028955046515,
+          "power_4_8": 0.1185657798425965,
+          "total_power": 0.5327834347753444,
+          "spectral_spread": 11.508011828394352,
+          "rms": 0.6722463796337428,
+          "peak_abs": 5.614799729602263,
+          "trim_5s_each_end_feature": 12.253515737637624,
+          "20s_frame_feature_values": [
+            10.177743796421744,
+            14.72082928294188,
+            13.547716248420267,
+            11.841276538819605
+          ]
+        },
+        {
+          "recording": "damage_1/test_2",
+          "category": "damage_1",
+          "fraction_4_8": 0.2946198568285997,
+          "power_4_8": 0.10897599360981051,
+          "total_power": 0.3698867916876669,
+          "spectral_spread": 12.551592020918081,
+          "rms": 0.5935329071318716,
+          "peak_abs": 6.920398219630506,
+          "trim_5s_each_end_feature": 11.864501106124434,
+          "20s_frame_feature_values": [
+            10.899094322470788,
+            14.339420489217822,
+            13.962515923575006,
+            11.259432909006545
+          ]
+        },
+        {
+          "recording": "damage_1/test_3",
+          "category": "damage_1",
+          "fraction_4_8": 0.2688833700835124,
+          "power_4_8": 0.12231263806580892,
+          "total_power": 0.45489104821848925,
+          "spectral_spread": 11.796942685626863,
+          "rms": 0.631800984569374,
+          "peak_abs": 4.538277463004924,
+          "trim_5s_each_end_feature": 11.848572124177027,
+          "20s_frame_feature_values": [
+            10.118507998788067,
+            13.8267728109998,
+            15.073047670913493,
+            10.125426386068686
+          ]
+        },
+        {
+          "recording": "damage_2/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.25687196528898165,
+          "power_4_8": 0.1816778340453432,
+          "total_power": 0.7072699967120007,
+          "spectral_spread": 13.232102284638865,
+          "rms": 0.7865363056738084,
+          "peak_abs": 14.60897035918544,
+          "trim_5s_each_end_feature": 13.01467912869231,
+          "20s_frame_feature_values": [
+            14.732057183440306,
+            13.616755155579723,
+            13.424812599569565,
+            12.381339309884066
+          ]
+        },
+        {
+          "recording": "damage_2/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.22704463199156047,
+          "power_4_8": 0.16847592767842096,
+          "total_power": 0.7420388062056601,
+          "spectral_spread": 13.535373785483754,
+          "rms": 0.8489164386618154,
+          "peak_abs": 16.38611218481982,
+          "trim_5s_each_end_feature": 12.754924243223073,
+          "20s_frame_feature_values": [
+            9.538156493231908,
+            13.060257787156074,
+            14.675730119892817,
+            12.81326409924072
+          ]
+        },
+        {
+          "recording": "damage_2/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.1950758574973954,
+          "power_4_8": 0.14770221907955117,
+          "total_power": 0.7571527352200579,
+          "spectral_spread": 14.510367207115129,
+          "rms": 0.8103312192042795,
+          "peak_abs": 14.20352733846076,
+          "trim_5s_each_end_feature": 14.626296805816532,
+          "20s_frame_feature_values": [
+            14.354557971685537,
+            14.876360007618684,
+            13.174434658673752,
+            13.538915673414074
+          ]
+        },
+        {
+          "recording": "damage_3/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.26212400694891125,
+          "power_4_8": 0.08534034336245509,
+          "total_power": 0.32557240504525087,
+          "spectral_spread": 14.093760661469696,
+          "rms": 0.5641724369692057,
+          "peak_abs": 5.11166435251877,
+          "trim_5s_each_end_feature": 13.338741421104011,
+          "20s_frame_feature_values": [
+            11.847045340748002,
+            13.600782065479205,
+            14.829060365344926,
+            15.953131435798186
+          ]
+        },
+        {
+          "recording": "damage_3/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.17292688593146907,
+          "power_4_8": 0.052171928920901056,
+          "total_power": 0.30169934906233603,
+          "spectral_spread": 14.644429332856472,
+          "rms": 0.5181034462438682,
+          "peak_abs": 4.241244081596554,
+          "trim_5s_each_end_feature": 14.688249194245232,
+          "20s_frame_feature_values": [
+            13.613657914242227,
+            13.774465789687328,
+            14.137991603599911,
+            15.692082527070545
+          ]
+        },
+        {
+          "recording": "damage_3/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.16645682817473387,
+          "power_4_8": 0.043235632446451094,
+          "total_power": 0.2597408164059547,
+          "spectral_spread": 14.652303117371728,
+          "rms": 0.5008856697236725,
+          "peak_abs": 4.727160671917797,
+          "trim_5s_each_end_feature": 14.692759360224176,
+          "20s_frame_feature_values": [
+            12.643240147786036,
+            14.457454861288673,
+            14.21082485194708,
+            18.374927546484827
+          ]
+        },
+        {
+          "recording": "damage_4/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.19573158270882052,
+          "power_4_8": 0.052631938594372756,
+          "total_power": 0.26889854905363175,
+          "spectral_spread": 14.946564366977363,
+          "rms": 0.49812120929393056,
+          "peak_abs": 3.3137091362905555,
+          "trim_5s_each_end_feature": 15.041755290109824,
+          "20s_frame_feature_values": [
+            16.737626003873864,
+            13.517736262837236,
+            12.889406043084445,
+            18.134389089025515
+          ]
+        },
+        {
+          "recording": "damage_4/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.21267350464526524,
+          "power_4_8": 0.04433956371776296,
+          "total_power": 0.20848654274880354,
+          "spectral_spread": 15.70556140238113,
+          "rms": 0.45717729953009456,
+          "peak_abs": 3.6245990581990597,
+          "trim_5s_each_end_feature": 16.170226692754326,
+          "20s_frame_feature_values": [
+            13.841065324819425,
+            15.016228046600968,
+            14.303522163483855,
+            17.115037833968213
+          ]
+        },
+        {
+          "recording": "damage_4/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.24206134429196896,
+          "power_4_8": 0.06888897429390886,
+          "total_power": 0.28459304188122053,
+          "spectral_spread": 14.161834942965038,
+          "rms": 0.5104134004448888,
+          "peak_abs": 4.015840278599175,
+          "trim_5s_each_end_feature": 14.444059849616787,
+          "20s_frame_feature_values": [
+            14.815891109061063,
+            12.981335402524738,
+            12.873117859845857,
+            17.65466847722133
+          ]
+        },
+        {
+          "recording": "damage_5/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.24158861687610722,
+          "power_4_8": 0.06224964875259261,
+          "total_power": 0.25766797110526035,
+          "spectral_spread": 15.954996671465542,
+          "rms": 0.4968171321117771,
+          "peak_abs": 3.928800876772282,
+          "trim_5s_each_end_feature": 15.613658556635919,
+          "20s_frame_feature_values": [
+            15.294016593708713,
+            15.50818359727809,
+            13.761784065983175,
+            16.998373878131158
+          ]
+        },
+        {
+          "recording": "damage_5/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.25080273293675115,
+          "power_4_8": 0.06180766851001172,
+          "total_power": 0.24643937403026117,
+          "spectral_spread": 14.69162011742383,
+          "rms": 0.46723452714708535,
+          "peak_abs": 3.691502464972954,
+          "trim_5s_each_end_feature": 15.527912203292942,
+          "20s_frame_feature_values": [
+            13.855807406063196,
+            14.50763124226049,
+            15.271173153784053,
+            18.539881610215026
+          ]
+        },
+        {
+          "recording": "damage_5/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.28258979777106846,
+          "power_4_8": 0.07120223464778537,
+          "total_power": 0.25196321738928346,
+          "spectral_spread": 14.767596887564592,
+          "rms": 0.4777146715479228,
+          "peak_abs": 3.2400076881862683,
+          "trim_5s_each_end_feature": 14.727782864269743,
+          "20s_frame_feature_values": [
+            15.537874627423927,
+            13.650672270643513,
+            13.022355563599943,
+            18.10017356688993
+          ]
+        },
+        {
+          "recording": "damage_6/test_1",
+          "category": "other_damage",
+          "fraction_4_8": 0.23616541041261307,
+          "power_4_8": 0.051967506468764565,
+          "total_power": 0.22004706945852176,
+          "spectral_spread": 15.570078923463852,
+          "rms": 0.4646290454953591,
+          "peak_abs": 4.010716946224204,
+          "trim_5s_each_end_feature": 15.740586679257868,
+          "20s_frame_feature_values": [
+            14.725712050737878,
+            14.008558501455294,
+            14.06350455358563,
+            17.046925136912822
+          ]
+        },
+        {
+          "recording": "damage_6/test_2",
+          "category": "other_damage",
+          "fraction_4_8": 0.18874194979083161,
+          "power_4_8": 0.04473400465826774,
+          "total_power": 0.2370114577487572,
+          "spectral_spread": 15.621737331843613,
+          "rms": 0.4938956262435805,
+          "peak_abs": 3.2228255822875944,
+          "trim_5s_each_end_feature": 15.245544440028361,
+          "20s_frame_feature_values": [
+            11.725254151068542,
+            14.971728830013376,
+            13.812361246956428,
+            18.08460028500056
+          ]
+        },
+        {
+          "recording": "damage_6/test_3",
+          "category": "other_damage",
+          "fraction_4_8": 0.2558335047138511,
+          "power_4_8": 0.009412765405400307,
+          "total_power": 0.03679254371286691,
+          "spectral_spread": 13.109720796418861,
+          "rms": 0.19816491532196193,
+          "peak_abs": 3.845906236232145,
+          "trim_5s_each_end_feature": 13.67335251568275,
+          "20s_frame_feature_values": [
+            13.695220924174635,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "recording": "damage_6/test_4",
+          "category": "other_damage",
+          "fraction_4_8": 0.23456715395694178,
+          "power_4_8": 0.06184266177008681,
+          "total_power": 0.2636458716698201,
+          "spectral_spread": 14.374550293033607,
+          "rms": 0.48466546746500067,
+          "peak_abs": 3.730069856567876,
+          "trim_5s_each_end_feature": 15.830190728505206,
+          "20s_frame_feature_values": [
+            13.030621406440714,
+            14.053690620049364,
+            14.427624082457905,
+            17.970061004302156
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Whole-recording features reproduce stored values. Trim and frames are diagnostics, not new labeled samples. Frames are not synchronized excitation events across recordings. Post-hoc group comparison; no physical cause is established."
+}

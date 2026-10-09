@@ -1,0 +1,142 @@
+{
+  "records": 25,
+  "features": 928,
+  "normalization_checks": [
+    {
+      "fold": 1,
+      "level": "outer",
+      "train_count": 16,
+      "validation_count": 9,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "fold": 1,
+      "level": "inner_1",
+      "train_count": 8,
+      "validation_count": 8,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_6"
+      ]
+    },
+    {
+      "fold": 1,
+      "level": "inner_2",
+      "train_count": 8,
+      "validation_count": 8,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_6"
+      ]
+    },
+    {
+      "fold": 2,
+      "level": "outer",
+      "train_count": 17,
+      "validation_count": 8,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_4",
+        "damage_6"
+      ]
+    },
+    {
+      "fold": 2,
+      "level": "inner_1",
+      "train_count": 8,
+      "validation_count": 9,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "fold": 2,
+      "level": "inner_2",
+      "train_count": 9,
+      "validation_count": 8,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_1",
+        "damage_1",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "fold": 3,
+      "level": "outer",
+      "train_count": 17,
+      "validation_count": 8,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_1",
+        "baseline_2",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_5",
+        "damage_6"
+      ]
+    },
+    {
+      "fold": 3,
+      "level": "inner_1",
+      "train_count": 8,
+      "validation_count": 9,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_1",
+        "baseline_2",
+        "damage_1",
+        "damage_4",
+        "damage_6"
+      ]
+    },
+    {
+      "fold": 3,
+      "level": "inner_2",
+      "train_count": 9,
+      "validation_count": 8,
+      "scaler_train_only": true,
+      "shared_original_states": [
+        "baseline_1",
+        "baseline_2",
+        "damage_1",
+        "damage_4",
+        "damage_6"
+      ]
+    }
+  ],
+  "exact_duplicate_feature_rows": [],
+  "label_and_record_metadata_excluded": true,
+  "code_audit": "GridSearchCV receives only outer training rows; preprocessing is inside its pipeline. MFCC is extracted separately for each recording.",
+  "limitations": [
+    "Repeated recordings of the same original experimental state occur in training and validation.",
+    "All recordings come from one bridge; bridge-level generalization cannot be evaluated.",
+    "Feature-family and model selection followed exploratory analysis of this dataset; reported scores are not an untouched final test.",
+    "No exact duplicate feature rows found; overlapping acquisition intervals cannot be ruled out without acquisition metadata."
+  ]
+}
